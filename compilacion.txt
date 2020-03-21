@@ -1,0 +1,289 @@
+def3.cpp: In function ‘void initialize_f1(char*)’:
+def3.cpp:38:62: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "sphere_func_data.txt");
+                                                              ^
+def3.cpp: In function ‘void initialize_f2(char*)’:
+def3.cpp:53:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "schwefel_102_data.txt");
+                                                               ^
+def3.cpp: In function ‘void initialize_f3(char*)’:
+def3.cpp:68:75: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "elliptic_M_D2.txt");
+                                                                           ^
+def3.cpp:69:77: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "elliptic_M_D10.txt");
+                                                                             ^
+def3.cpp:70:77: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "elliptic_M_D30.txt");
+                                                                             ^
+def3.cpp:71:77: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "elliptic_M_D50.txt");
+                                                                             ^
+def3.cpp:78:73: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "high_cond_elliptic_rot_data.txt");
+                                                                         ^
+def3.cpp: In function ‘void initialize_f4(char*)’:
+def3.cpp:93:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "schwefel_102_data.txt");
+                                                               ^
+def3.cpp: In function ‘void initialize_f5(char*)’:
+def3.cpp:115:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "schwefel_206_data.txt");
+                                                               ^
+def3.cpp: In function ‘void initialize_f6(char*)’:
+def3.cpp:159:66: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "rosenbrock_func_data.txt");
+                                                                  ^
+def3.cpp: In function ‘void initialize_f7(char*)’:
+def3.cpp:175:75: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "griewank_M_D2.txt");
+                                                                           ^
+def3.cpp:176:77: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "griewank_M_D10.txt");
+                                                                             ^
+def3.cpp:177:77: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "griewank_M_D30.txt");
+                                                                             ^
+def3.cpp:178:77: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "griewank_M_D50.txt");
+                                                                             ^
+def3.cpp:185:64: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "griewank_func_data.txt");
+                                                                ^
+def3.cpp: In function ‘void initialize_f8(char*)’:
+def3.cpp:201:73: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "ackley_M_D2.txt");
+                                                                         ^
+def3.cpp:202:75: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "ackley_M_D10.txt");
+                                                                           ^
+def3.cpp:203:75: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "ackley_M_D30.txt");
+                                                                           ^
+def3.cpp:204:75: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "ackley_M_D50.txt");
+                                                                           ^
+def3.cpp:211:62: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "ackley_func_data.txt");
+                                                              ^
+def3.cpp: In function ‘void initialize_f9(char*)’:
+def3.cpp:230:65: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "rastrigin_func_data.txt");
+                                                                 ^
+def3.cpp: In function ‘void initialize_f10(char*)’:
+def3.cpp:245:76: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "rastrigin_M_D2.txt");
+                                                                            ^
+def3.cpp:246:78: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "rastrigin_M_D10.txt");
+                                                                              ^
+def3.cpp:247:78: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "rastrigin_M_D30.txt");
+                                                                              ^
+def3.cpp:248:78: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "rastrigin_M_D50.txt");
+                                                                              ^
+def3.cpp:255:65: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "rastrigin_func_data.txt");
+                                                                 ^
+def3.cpp: In function ‘void initialize_f11(char*)’:
+def3.cpp:270:78: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "weierstrass_M_D2.txt");
+                                                                              ^
+def3.cpp:271:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "weierstrass_M_D10.txt");
+                                                                                ^
+def3.cpp:272:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "weierstrass_M_D30.txt");
+                                                                                ^
+def3.cpp:273:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "weierstrass_M_D50.txt");
+                                                                                ^
+def3.cpp:280:62: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "weierstrass_data.txt");
+                                                              ^
+def3.cpp: In function ‘void initialize_f12(char*)’:
+def3.cpp:303:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "schwefel_213_data.txt");
+                                                               ^
+def3.cpp: In function ‘void initialize_f13(char*)’:
+def3.cpp:349:61: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "EF8F2_func_data.txt");
+                                                             ^
+def3.cpp: In function ‘void initialize_f14(char*)’:
+def3.cpp:365:78: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "E_ScafferF6_M_D2.txt");
+                                                                              ^
+def3.cpp:366:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "E_ScafferF6_M_D10.txt");
+                                                                                ^
+def3.cpp:367:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "E_ScafferF6_M_D30.txt");
+                                                                                ^
+def3.cpp:368:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "E_ScafferF6_M_D50.txt");
+                                                                                ^
+def3.cpp:375:67: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "E_ScafferF6_func_data.txt");
+                                                                   ^
+def3.cpp: In function ‘void initialize_f15(char*)’:
+def3.cpp:391:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func1_data.txt");
+                                                               ^
+def3.cpp: In function ‘void initialize_f16(char*)’:
+def3.cpp:420:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func1_data.txt");
+                                                               ^
+def3.cpp:430:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D2.txt");
+                                                                               ^
+def3.cpp:431:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D10.txt");
+                                                                                 ^
+def3.cpp:432:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D30.txt");
+                                                                                 ^
+def3.cpp:433:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f17(char*)’:
+def3.cpp:464:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func1_data.txt");
+                                                               ^
+def3.cpp:474:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D2.txt");
+                                                                               ^
+def3.cpp:475:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D10.txt");
+                                                                                 ^
+def3.cpp:476:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D30.txt");
+                                                                                 ^
+def3.cpp:477:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func1_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f18(char*)’:
+def3.cpp:508:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func2_data.txt");
+                                                               ^
+def3.cpp:518:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D2.txt");
+                                                                               ^
+def3.cpp:519:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D10.txt");
+                                                                                 ^
+def3.cpp:520:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D30.txt");
+                                                                                 ^
+def3.cpp:521:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f19(char*)’:
+def3.cpp:565:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func2_data.txt");
+                                                               ^
+def3.cpp:575:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D2.txt");
+                                                                               ^
+def3.cpp:576:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D10.txt");
+                                                                                 ^
+def3.cpp:577:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D30.txt");
+                                                                                 ^
+def3.cpp:578:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f20(char*)’:
+def3.cpp:623:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func2_data.txt");
+                                                               ^
+def3.cpp:637:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D2.txt");
+                                                                               ^
+def3.cpp:638:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D10.txt");
+                                                                                 ^
+def3.cpp:639:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D30.txt");
+                                                                                 ^
+def3.cpp:640:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func2_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f21(char*)’:
+def3.cpp:684:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func3_data.txt");
+                                                               ^
+def3.cpp:694:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D2.txt");
+                                                                               ^
+def3.cpp:695:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D10.txt");
+                                                                                 ^
+def3.cpp:696:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D30.txt");
+                                                                                 ^
+def3.cpp:697:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f22(char*)’:
+def3.cpp:738:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func3_data.txt");
+                                                               ^
+def3.cpp:748:80: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func3_HM_D2.txt");
+                                                                                ^
+def3.cpp:749:82: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func3_HM_D10.txt");
+                                                                                  ^
+def3.cpp:750:82: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func3_HM_D30.txt");
+                                                                                  ^
+def3.cpp:751:82: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func3_HM_D50.txt");
+                                                                                  ^
+def3.cpp: In function ‘void initialize_f23(char*)’:
+def3.cpp:792:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func3_data.txt");
+                                                               ^
+def3.cpp:802:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D2.txt");
+                                                                               ^
+def3.cpp:803:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D10.txt");
+                                                                                 ^
+def3.cpp:804:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D30.txt");
+                                                                                 ^
+def3.cpp:805:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func3_M_D50.txt");
+                                                                                 ^
+def3.cpp: In function ‘void initialize_f24_f25(char*)’:
+def3.cpp:846:63: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     fpt = open_input_data(extdata_dir, "hybrid_func4_data.txt");
+                                                               ^
+def3.cpp:856:79: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 2) fpt = open_input_data(extdata_dir, "hybrid_func4_M_D2.txt");
+                                                                               ^
+def3.cpp:857:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 10) fpt = open_input_data(extdata_dir, "hybrid_func4_M_D10.txt");
+                                                                                 ^
+def3.cpp:858:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 30) fpt = open_input_data(extdata_dir, "hybrid_func4_M_D30.txt");
+                                                                                 ^
+def3.cpp:859:81: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+     if (nreal == 50) fpt = open_input_data(extdata_dir, "hybrid_func4_M_D50.txt");
+                                                                                 ^
+/tmp/ccRHrcln.o: In function `cec2005benchmark(char**, int*, double*, int*, int*, double*)':
+cec2005benchmark.cpp:(.text+0x2b7): undefined reference to `R_CheckUserInterrupt'
+/tmp/cc5Ddb8h.o: In function `open_input_data(char*, char*)':
+def3.cpp:(.text+0x9b): undefined reference to `Rf_error'
+/tmp/ccFtZ50D.o: In function `randomperc()':
+rand.cpp:(.text+0x2d): undefined reference to `GetRNGstate'
+rand.cpp:(.text+0x32): undefined reference to `unif_rand'
+rand.cpp:(.text+0x40): undefined reference to `PutRNGstate'
+/tmp/ccFtZ50D.o: In function `randomnormaldeviate()':
+rand.cpp:(.text+0x67): undefined reference to `GetRNGstate'
+rand.cpp:(.text+0x6c): undefined reference to `norm_rand'
+rand.cpp:(.text+0x7a): undefined reference to `PutRNGstate'
+collect2: error: ld returned 1 exit status
