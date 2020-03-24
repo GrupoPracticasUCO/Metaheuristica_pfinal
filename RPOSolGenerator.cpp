@@ -20,7 +20,7 @@ void RPOSolGenerator::genRandomSol(RPOInstance &instance, RPOSolution &solution)
   double *sol = new double[instance.getNDims()];
 	for (int i = 0; i < instance.getNDims(); i++) {
     //Duda desde donde hasta donde?
-    sol[i] = rand();
+    sol[i] = (rand()%201)-100;
   }
   solution.setSol(sol);
 }
