@@ -61,7 +61,7 @@ void RPOSolGenerator::genRandomSol(RPOInstance &instance, RPOSolution &solution)
     break;
     case 11:
       for (int i = 0; i < instance.getNDims(); i++) {
-        sol[i] = ((rand()%(1001))-500)/1000;
+        sol[i] = ((rand()%1001)-500)/1000;
       }
     break;
     case 12:

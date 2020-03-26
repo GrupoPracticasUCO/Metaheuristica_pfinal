@@ -225,7 +225,7 @@ int main(int argc, char **argv) {
 		cout << argv[0] << " (<path> <numInstance>)+" << endl;
 		return 0;
 	}
-  srand(time(NULL));
+  srand(1);
 
 
 

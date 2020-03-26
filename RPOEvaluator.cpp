@@ -129,5 +129,6 @@ double RPOEvaluator::computeFitness(RPOInstance &instance, RPOSolution &solution
   int size = instance.getNDims();
   int uno = 1;
   cec2005benchmark(&path, &i, solution.getSol(), &uno, &size, fitness);
-  return fitness[i-1];
+
+  return fitness[0];
 }
