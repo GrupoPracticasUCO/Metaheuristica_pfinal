@@ -122,6 +122,7 @@ double RPOEvaluator::computeFitness(RPOInstance &instance, RPOSolution &solution
   double *fitness = new double[25];
 
   char *path;
+  path = new char[1028*sizeof(char)];
 
   strcpy(path,instance.getExtDataDir().c_str());
   int i = instance.getNumInstance();
