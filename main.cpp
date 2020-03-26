@@ -278,12 +278,6 @@ int main(int argc, char **argv) {
 	//////////////////////
 	// Printing the results
 	//////////////////////
-	for (int iInstance = 1; iInstance < argc; iInstance += 2){
-		cout <<  "best\t";
-		cout <<  "current\t";
-	}
-	cout << endl;
-
 	for (unsigned int iIteration = 0; iIteration < overallMaxNumResults; iIteration++){
 		for (unsigned int iInstance = 0; iInstance < numInstances; iInstance++){
 			cout << meanResults.at(iInstance)->at(iIteration).best << "\t";
